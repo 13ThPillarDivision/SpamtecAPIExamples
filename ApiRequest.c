@@ -1,3 +1,12 @@
+/*
+Install libcurl if you haven't already: For example, on Ubuntu, you can use apt-get install libcurl4-openssl-dev.
+Save the following code to a file named ApiRequest.c:
+Replace https://endpoint.spamtec.cc/v1/tool?key=key&input= with the desired API endpoint.
+Compile the program using the following command: gcc ApiRequest.c -o ApiRequest -lcurl.
+Run the compiled program: ./ApiRequest.
+The program will prompt you for input, send it to the API, and display the response.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
