@@ -1,0 +1,19 @@
+#pip install uwuify
+import requests
+from uwuify import uwu
+
+# Prompt user for input
+user_input = input("Enter your text: ")
+
+# Make API call
+url = "https://api.example.com/translate"
+params = {"text": user_input}
+response = requests.get(url, params=params)
+
+# Parse response and uwu-fy the result
+if response.status_code == 200:
+    result = response.json()["result"]
+    uwu_result = uwu(result)
+    print("API response: ", uwu_result)
+else:
+    print("Error: ", response.status_code)
