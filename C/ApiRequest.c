@@ -1,7 +1,7 @@
 // Required Packaged: (libcurl) 
 // For Ubuntu/Debian-based systems: apt-get install libcurl4-openssl-dev
 // For CentOS/Fedora/RHEL-based systems: yum install libcurl-devel
-
+// Usage: gcc ApiRequest.c -o ApiRequest -lcurl && ./ApiRequest
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
