@@ -1,0 +1,35 @@
+#import <Foundation/Foundation.h>
+
+void fetchData(NSString *userInput) {
+    NSString *encodedInput = [userInput stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    NSString *apiUrlString = [NSString stringWithFormat:@"https://api.example.com/endpoint?input=%@", encodedInput];
+    NSURL *apiUrl = [NSURL URLWithString:apiUrlString];
+
+    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithURL:apiUrl completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"Error: %@", error.localizedDescription);
+            return;
+        }
+
+        NSString *responseString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        NSLog(@"API response: %@", responseString);
+        
+        exit(0);
+    }];
+
+    [task resume];
+}
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        NSLog(@"Enter your input:");
+        char buffer[256];
+        fgets(buffer, sizeof(buffer), stdin);
+        NSString *userInput = [NSString stringWithUTF8String:buffer].stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet);
+
+        fetchData(userInput);
+
+        [[NSRunLoop currentRunLoop] run];
+    }
+    return 0;
+}
