@@ -1,8 +1,7 @@
 <?php
       header('Content-Type: application/json');
 
-      if (isset($_GET['input'])) {
-          $takenInput = intval($_GET['input']);
+          $takenInput = $_GET['input'];
 
           if ($postId > 0) {
               $url = 'https://endpoint.spamtec.cc/geoip?key=key&input=' . $takenInput;
