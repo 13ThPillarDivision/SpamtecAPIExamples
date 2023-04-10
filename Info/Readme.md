@@ -1,4 +1,4 @@
-# Full list of avalible language examples
+# Full list of available language examples
 
 #### [Python](https://github.com/13ThPillarDivision/SpamtecAPIExamples/tree/main/Examples/Python)
 - [Python 2.7](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Examples/Python/Python2-ApiRequest.py)
