@@ -1,5 +1,11 @@
 # Full list of avalible language examples
-- First item
-- Second item
-- Third item
-- Fourth item
+- [Python 2.7](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Python2-ApiRequest.py)
+- [Python 3](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Python3-ApiRequest.py)
+- [JavaScript](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.js)
+- [TypeScript](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Typescript-ApiRequest.ts)
+- [GoLang](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.go)
+- [PHP 7](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/php7-ApiRequest.php)
+- [PHP 8](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/php8-ApiRequest.php)
+- [C Lang](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.c)
+- [C Plus Plus](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.cpp)
+- []()
