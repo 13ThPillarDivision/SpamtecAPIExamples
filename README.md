@@ -5,10 +5,10 @@ Spamtec is a comprehensive API service designed to revolutionize the way develop
 
 ## Common Language Code Examples:
  ##### _Our full language list can be found [HERE](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Info/Readme.md)_
-- [Python 3](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/Python3-ApiRequest.py)
-- [JavaScript](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.js)
-- [GoLang](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/ApiRequest.go)
-- [PHP 8](https://github.com/13ThPillarDivision/SpamtecAPIExamples/blob/main/php8-ApiRequest.php)
+- [Python](https://github.com/13ThPillarDivision/SpamtecAPIExamples/tree/main/Examples/Python)
+- [JavaScript](https://github.com/13ThPillarDivision/SpamtecAPIExamples/tree/main/Examples/JavaScript)
+- [GoLang](https://github.com/13ThPillarDivision/SpamtecAPIExamples/tree/main/Examples/GoLang)
+- [PHP](https://github.com/13ThPillarDivision/SpamtecAPIExamples/tree/main/Examples/PHP)
 
 ### Quick Notes:
 
