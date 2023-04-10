@@ -1,5 +1,5 @@
 # Spamtec API Examples
-## _Collection of Code Examples for api.spamtec.cc_
+## _Collection of Code Examples for Spamtec API_
 
 Spamtec is a comprehensive API service designed to revolutionize the way developers interact with networking, web APIs, communication tools, generators, and managers. With our user-friendly suite of tools and resources, creating, managing, and optimizing your digital ecosystem has never been easier. Here we have provided our users code examples for querrying our APIs in nearly every language we know how to progam in. They are very simple examples and we hope they help new developers get started on the right track in creating their projects. If you would like to contribute more complex examples or use cases, just submit a request or email us. 
 
